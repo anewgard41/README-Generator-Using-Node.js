@@ -51,8 +51,9 @@ ${renderLicenseLink(data.license)}
 
 * [Questions](#questions)
 
-To install necessary dependencies, run the following command: 
 
+## Installation
+To install necessary dependencies, run the following command: 
 \`\`\`
 ${data.installation}
 \`\`\`
