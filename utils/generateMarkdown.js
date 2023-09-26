@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function creates a license badge using img.shields.io. If no license is choosed, an empty string is returned. 
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
