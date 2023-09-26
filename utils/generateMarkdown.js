@@ -37,6 +37,51 @@ ${renderLicenseBadge(data.license)}
 
 ##Description
 
+${data.description}
+
+## Table of Contents
+
+* [Installation](#installation)
+
+* [Usage](#Usage)
+${renderLicenseLink(data.license)}
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+To install necessary dependencies, run the following command: 
+
+\`\`\`
+${data.installation }
+\`\`\`
+
+## Usage 
+
+${data.usage}
+
+${renderLicenseSection(data.license)}
+
+## Contributing 
+
+${data.contributing}
+
+## Tests 
+
+To run tests, run the following command: 
+
+\`\`\`
+${data.test}
+\`\`\`
+
+
+## Questions 
+
+Any questions about the repository? Feel free to open an issue, or send me an email at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+
+Thank you for stopping by! 
+
 `;
 }
 
