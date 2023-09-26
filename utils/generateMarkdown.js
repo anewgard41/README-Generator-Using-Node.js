@@ -1,4 +1,4 @@
-// Function creates a license badge using img.shields.io. If no license is choosed, an empty string is returned. 
+// Function creates a license badge using img.shields.io. If no license is chosen, an empty string is returned. 
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
@@ -7,8 +7,7 @@ function renderLicenseBadge(license) {
   return " ";
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function creates a link to the license within the README.md. If no license is chosen, an empty string is returned.
 function renderLicenseLink(license) {
   if (license !== "None") {
     return `\n* [License](#license)\n` ;
@@ -18,8 +17,7 @@ function renderLicenseLink(license) {
 
 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function creates the license section. License link directs to this section. If no license is chosen, an empty string is returned.
 function renderLicenseSection(license) {
     if (license !== "None") {
       return `## License 
@@ -29,7 +27,8 @@ This project is licensed under the ${license} license.`
     return " "
 }
 
-// TODO: Create a function to generate markdown for README
+// Using template literal and the data from the user, this function generates the README.md. Forward slashes are used next to backticks below in order to create code block sections in the README and avoid interrupting the template literal. The renderLicense functions are called. 
+
 function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
