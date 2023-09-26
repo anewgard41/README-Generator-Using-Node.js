@@ -35,13 +35,13 @@ function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
 
-##Description
+## Description
 
 ${data.description}
 
 ## Table of Contents
 
-* [Installation](#installation)
+* [Installation](#Installation)
 
 * [Usage](#Usage)
 ${renderLicenseLink(data.license)}
@@ -54,7 +54,7 @@ ${renderLicenseLink(data.license)}
 To install necessary dependencies, run the following command: 
 
 \`\`\`
-${data.installation }
+${data.installation}
 \`\`\`
 
 ## Usage 

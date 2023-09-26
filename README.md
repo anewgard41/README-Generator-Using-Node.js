@@ -1,13 +1,13 @@
-# The wonderful life of NODE 
+# Nodecity 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-##Description
+## Description
 
-Node based ballerstatus
+A node based project using inquirer that enables users to create a README.md file with ease.
 
 ## Table of Contents
 
-* [Installation](#installation)
+* [Installation](#Installation)
 
 * [Usage](#Usage)
 
@@ -22,12 +22,12 @@ Node based ballerstatus
 To install necessary dependencies, run the following command: 
 
 ```
-npm i prolly
+npm i
 ```
 
 ## Usage 
 
-it's a lot of javascript
+It is open source. Go crazy! 
 
 ## License 
       
@@ -35,7 +35,7 @@ This project is licensed under the MIT license.
 
 ## Contributing 
 
-it's open source. go crazy! 
+that 
 
 ## Tests 
 
