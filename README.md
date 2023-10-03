@@ -1,55 +1,21 @@
-# READMEmaker 
-![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+# README.md Generator Using Node.js and Inquirer
+
+## Quickly and easily generate a README for any project or application you are working on. 
+
+Here is a link to a video demonstrating how to use the application: https://drive.google.com/file/d/1i78dPgzuuyWZQahRkLtOHqojwkAHkTZm/view?usp=sharing
 
 ## Description
 
-An application that creates high quality READMEs with NodeJS
+Having trouble writing a README.md file for your program? Can't figure out how to get a license badge at the top of your README? Look no further! With this simple to use Node.js application, we got you covered. 
 
-## Table of Contents
-
-* [Installation](#Installation)
-
-* [Usage](#Usage)
-
-* [License](#license)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
-* [Questions](#questions)
-
+By invoking several techniques such as arrow functions, literal templates, reading/writing files, modularization, and spread/rest operators, we were able to write a simple to use, easy to read application for generating README files. 
 
 ## Installation
-To install necessary dependencies, run the following command: 
-```
-npm i
-```
 
-## Usage 
+In order to use this application you need to ensure you have Node.js installed, as well as the npm package, inquirer (specifically version 8.2.4). After ensuring you have these two applications, you can create your own README.md file in no time. 
 
-It is a lot of JS! 
+## Credits
 
-## License 
-      
-This project is licensed under the MIT license.
+Huge shoutout to our instructor Kai Chen for excellent lectures this week and to our TA Carl Vega for all of his help and support. 
 
-## Contributing 
-
-It's open source, go nuts!
-
-## Tests 
-
-To run tests, run the following command: 
-
-```
-npm test
-```
-
-
-## Questions 
-
-Any questions about the repository? Feel free to open an issue, or send me an email at anewgard41@gmail.com. You can find more of my work at [anewgard41](https://github.com/anewgard41/).
-
-Thank you for stopping by! 
-
+Thanks for reading. Happy coding. Cheers! 
